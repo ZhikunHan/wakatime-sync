@@ -14,3 +14,5 @@ jobs:
           GIST_ID: ${{ secrets.GIST_ID}}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SCU_KEY: ${{ secrets.SCU_KEY }}
+on:
+  workflow_dispatch:
